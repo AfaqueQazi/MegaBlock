@@ -808,14 +808,15 @@ section,
 }
 
 .clients .client-logo img {
-  padding: 20px 40px;
+  padding: 10px 10px;
   max-width: 90%;
   transition: 0.3s;
-  opacity: 0.5;
-  filter: grayscale(100);
+  /* opacity: 0.5; */
+  /* filter: grayscale(100); */
 }
 
 .clients .client-logo img:hover {
+  padding: 5px 5px;
   filter: none;
   opacity: 1;
 }
